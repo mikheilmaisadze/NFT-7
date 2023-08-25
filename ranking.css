@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "work";
+    src: url("WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mono";
+    src: url("SpaceMono-Regular.ttf");
+}
+
+* {
+    color: #fff !important;
+   text-transform: capitalize;
+   font-family: "work" !important;
+}
+
+body {
+    background-color: #2B2B2B !important;
+}
+
+
+nav ul li a {
+    font-weight: 600 !important;
+}
+
+nav ul li button {
+    height: 60px !important;
+    background-color: #A259FF;
+    width: 152px;
+}
+
+nav ul li button:hover {
+    opacity: 0.7;
+}
+
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(233, 214, 214) !important;
+}
+
+nav .href-1::after {
+    content: "";
+    position: absolute;
+    background-color: #A259FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.href-1:hover::after {
+    width: 100%;
+}
+
+section h2:first-of-type {
+    font-size: 51px;
+    font-weight: 600 !important;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+section h2:first-of-type + p {
+    font-size: 22px;
+    font-weight: 400 !important;
+    margin-bottom: 90px !important;
+}
+
+section .box-5 {
+    margin-bottom: 55px;
+}
+
+.date h3:not(:first-of-type) {
+    color: #858584 !important;
+}
+
+.date h3 {
+    font-size: 22px;
+}
+
+.rounded-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #2B2B2B;
+}
+
+.game {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    height: 84px;
+    margin-bottom: 20px;
+}
+
+.game h4, p {
+    margin-bottom: 0 !important;
+}
+
+.game h4 {
+    font-size: 22px;
+    font-weight: 600 !important;
+}
+
+.box-1 {
+    width: 47%;
+}
+
+.box-2 {
+    width: 53%;
+}
+
+.box-2 div {
+    font-size: 16px;
+}
+
+.box-2 div:first-of-type {
+    color: #00AC4F !important;
+}
+
+.game-1 {
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 46px;
+}
+
+.game-1 .box-1 p {
+    color: #858584 !important;
+    font-size: 16px;
+}
+
+.game-1 .box-2 div {
+    color: #858584 !important;
+    font-size: 16px;
+}
+
+.mobile h2 {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    margin-top: 40px !important;
+}
+
+.mobile h2 + #mobile-p {
+    font-size: 16px !important;
+    margin-bottom: 40px !important;
+}
+
+.mobile .container-fluid {
+    height: 50px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    margin-bottom: 20px;
+}
+
+.mobile .container-fluid p:first-of-type {
+    color: #858584 !important;
+}
+
+.mobile .container-fluid p:last-of-type {
+    font-size: 12px !important
+}
+
+
+
+footer {
+    background-color: #3B3B3B;
+}
+
+footer p, h1, h2, h3, h4, h5, h6 {
+    background-color: transparent !important;
+}
+
+.template {
+    font-size: 12px !important;
+}
+
+footer input {
+    height: 60px;
+}
+
+footer button {
+    background-color: #A259FF;
+    height: 60px !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+}
+
+.footer-2 input, button {
+    height: 46px !important;
+  }
+  
+  .footer-2 p {
+      font-size: 16px;
+      font-weight: 400 !important;
+  }
+  
+  .footer-2 h4 {
+      font-size: 22px;
+      font-weight: 700 !important;
+  }
+
+  .envelop {
+    height: 46px !important;
+    font-size: 16px !important;
+}
+
+footer {
+    border-top: 2px solid #2B2B2B;
+}
+
+.mobile .justify-content-around p:not(:first-of-type) {
+    color: #858584 !important;
+}
+
+.mobile .justify-content-around {
+    margin-bottom: 40px;
+}
+
+.mobile > div:nth-of-type(2) p {
+    font-size: 12px !important;
+    color: #858584 !important;
+}
+
+#artist-1 {
+    border: 1px solid #3B3B3B !important;
+    height: 46px !important;
+}
